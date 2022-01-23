@@ -45,23 +45,23 @@
       return{
         orders:[
           {
-            id:"123",
-            name:"Lida",
-            phone:"+79787314451",
+            id:"111",
+            name:"Kate",
+            phone:"+79785630593",
             adId:"1",
             done:true
           },
           {
-            id:"124",
-            name:"Mark",
-            phone:"+79789544164",
+            id:"112",
+            name:"Daniel",
+            phone:"+79786784524",
             adId:"2",
             done:true
           },
           {
-            id:"125",
-            name:"Froy",
-            phone:"+79780714777",
+            id:"113",
+            name:"Max",
+            phone:"+79781230004",
             adId:"3",
             done:true
           }
