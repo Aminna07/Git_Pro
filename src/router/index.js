@@ -15,12 +15,6 @@ export default new Router({
 		component: Home
 	},
 
-    {
-		path:"/ad/:id",
-		name:"ad",
-		component:Ad
-	},
-
 	{
 		path:"/list",
 		name:"list",
@@ -49,6 +43,13 @@ export default new Router({
 		path: "/orders",
 		name: "orders",
 		component: Orders
+	},
+
+	{
+		path: "/ad/:id",
+		props: true,
+		name: "ad",
+		component: Ad
 	}
     
 	],

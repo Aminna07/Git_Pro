@@ -49,6 +49,8 @@ export default{
     actions: {},
     getters: {
         ads(state) {
+			console.log ("В state проверяем adds")
+			console.log (state.ads)
             return state.ads
         },
         promoAds(state) {
@@ -58,6 +60,11 @@ export default{
         },
         myAds(state) {
             return state.ads
+        },
+        adById(state) {
+            return id => {
+                return state.ads.find (ad => ad.id == id)
+            }
         }
     }
 }
