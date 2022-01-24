@@ -1,75 +1,63 @@
 export default{
-    state:{
+    state: {
         ads:[
 			{
-				title:"Монобукет #36",
-				desc:"Цветы в букете: роза кустовая. Цвет букета: персиковый, красный.",
+				title:"First",
+				desc:"First Desc",
 				promo: true,
-				src:"https://chita.klumba.store/upload/iblock/67a/67a702ca8d95e76b8292028afb3453da.JPG",
+				src: "https://wallpapershome.ru/images/pages/pic_h/22770.jpg",
 				id:"1"
 			},
 			{
-				title:"Дуобукет #115",
-				desc:"Цветы в букете: тюльпан, роза кустовая. Гамма букета: персиковый, розовый.",
+				title:"Second",
+				desc:"Second Desc",
 				promo: true,
-				src: "https://chita.klumba.store/upload/iblock/b85/wcusayxqisixgl57742sirm2xhe4k9yt/IMG_3030.JPG",
+				src: "https://wallpapershome.ru/images/pages/pic_h/13301.jpg",
 				id:"2"
 			},
 			{
-				title:"Гамма #231",
-				desc:"Цветы в букете: диантус, роза, роза кустовая, цимбидиум.Цвет букета: белый, капучино, персиковый, красный.",
+				title:"Third",
+				desc:"Thitd Desc",
 				promo: true,
-				src: "https://chita.klumba.store/upload/iblock/352/3etqj8wtn8eey76fjp918ato4weeljyb/IMG_6308.JPG",
+				src: "https://wallpapershome.ru/images/pages/pic_h/23314.jpg",
 				id:"3"
 			},
 			{
-				title:"Монобукет #105",
-				desc:" Цветы в букете: диантус.Цвет букета: голубой, жёлтый, розовый..",
+				title:"Fouth",
+				desc:"Fouth Desc",
 				promo: true,
-				src: "https://chita.klumba.store/upload/iblock/892/33u14oh9w19d2e779fiy6zwhkx95ch3h.jpg",
+				src: "https://i1.wp.com/mynexttablet.com/wp-content/uploads/2021/09/samsung-galaxy-tab-s7-fe-tablet-comparison.jpg?fit=1920%2C1080&ssl=1",
 				id:"4"
 			},
 			{
-				title:"Монобукет #121",
-				desc:"Цветы в букете: роза кустовая. Цвет букета: лавандовый.",
+				title:"Fifth",
+				desc:"Fifth Desc",
 				promo: true,
-				src: "https://chita.klumba.store/upload/iblock/f89/1ss65jir9hftb6oeq32n22xs4zgfklmg.JPG",
+				src: "https://cdn.andro4all.com/files/2021/10/Diseno-de-la-Xiaomi-Pad-5.jpg",
 				id:"5"
 			},
 			{
-				title:"Дуобукет #127",
-				desc:"Цветы в букете: роза, цимбидиум. Гамма букета: белый, лавандовый.",
+				title:"Sixth",
+				desc:"Sixth Desc",
 				promo: true,
-				src: "https://chita.klumba.store/upload/iblock/20b/c494gu23j33pwp61cl02g7tu3f2gmh1v/IMG_6269.JPG",
+				src: "https://www.iphones.ru/wp-content/uploads/2021/10/ipad-mini-6-review-iphonesru-10.jpg",
 				id:"6"
 			}
         ]
     },
-    mutations: {
-		createAd(state, payload){
-			state.ads.push(payload)
-		}
-	},
-    actions: {
-		createAd({commit},payload){
-			payload.id = Math.random()
-			commit('createAd', payload)
-		}
-	},
+    mutations: {},
+    actions: {},
     getters: {
         ads(state) {
             return state.ads
         },
         promoAds(state) {
-            return state.ads.filter(ad => {return ad.promo})
+            return state.ads.filter(ad => {
+                return ad.promo
+            })
         },
         myAds(state) {
             return state.ads
-        },
-		adById(state){
-			return id => {
-				return state.ads.find(ad=> ad.id == id)
-			}
-		}
+        }
     }
 }
