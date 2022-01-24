@@ -2,45 +2,45 @@ export default{
     state:{
         ads:[
 			{
-				title:"Galaxy Tab A7",
-				desc:"Elegant design, amazing entertainment system and high performance turn the Galaxy Tab A7 tablet into an indispensable assistant. Enjoy your favorite activities to the fullest and share the best moments of your life. Learn, explore and be inspired.",
+				title:"Дуобукет #127",
+				desc:"Цветы в букете: роза, цимбидиум.Гамма букета: белый, лавандовый",
 				promo: true,
-				src: "https://wallpapershome.ru/images/pages/pic_h/22770.jpg",
+				src: "https://chita.klumba.store/upload/iblock/20b/c494gu23j33pwp61cl02g7tu3f2gmh1v/IMG_6269.JPG",
 				id:"1"
 			},
 			{
-				title:"Lenovo - IdeaPad",
-				desc:"IdeaPad Duet 5 13.3 OLED Chromebook - Snapdragon SC7180 - Qualcomm Adreno Graphics - 8GB Memory - 128GB SSD - Abyss Blue",
+				title:"Коробка #40",
+				desc:"Цветы в букете: гиацинт , анемон , диантус , фрезия, маттиола.Цвет букета: лавандовый, белый, фиолетовый",
 				promo: true,
-				src: "https://wallpapershome.ru/images/pages/pic_h/13301.jpg",
+				src: "https://chita.klumba.store/upload/iblock/131/7blk64igztsb9lc1jotz1tng5s1jmja1/IMG_6675.JPG",
 				id:"2"
 			},
 			{
-				title:"Microsoft Surface",
-				desc:"Screen 14.4 IPS (2400x1600) 120 Hz, Multitouch, Glossy / Intel Core i7-11370H (3.3 - 4.8GHz) / RAM 16 GB / SSD 512 GB / nVidia GeForce RTX 3050 Ti, 4 GB / without OD / Wi-Fi / Bluetooth / Webcam / Windows 11 Home / 1.73 kg / Platinum",
+				title:"Гамма #128",
+				desc:"Цветы в букете: диантус, роза кустовая, эрингиум.Цвет букета: фиолетовый, синий.",
 				promo: true,
-				src: "https://wallpapershome.ru/images/pages/pic_h/23314.jpg",
+				src: "https://chita.klumba.store/upload/iblock/3c4/mh0e3w01unyg7yfgj2liu6z4jrpty0yn.JPG",
 				id:"3"
 			},
 			{
-				title:"Samsung Galaxy Tab S7 WiFi",
-				desc:"SM-T220, 3ГБ, 32GB, Android 11 темно-серый [sm-t220nzaaser]. Dolby Atmos technology for surround sound. ini-windows for simultaneous launch of different applications.",
+				title:"Монобукет #51 ",
+				desc:"Цветы в букете: тюльпан.Цвет букета: фиолетовый.",
 				promo: true,
-				src: "https://i1.wp.com/mynexttablet.com/wp-content/uploads/2021/09/samsung-galaxy-tab-s7-fe-tablet-comparison.jpg?fit=1920%2C1080&ssl=1",
+				src: "https://chita.klumba.store/upload/iblock/559/5591adb4f071f3c8b320a6cf088320c7.JPG",
 				id:"4"
 			},
 			{
-				title:"Xiaomi Pad 5",
-				desc:"Qualcomm Snapdragon 860 octa-core processor – high performance and multitasking.Long battery life - up to 5 days.120 Hz screen refresh rate for easy and smooth operation.",
+				title:"Гамма #234",
+				desc:"Цветы в букете: цимбидиум , роза, леукадендрон, астранция. Цвет букета: красный, капучино.",
 				promo: true,
-				src: "https://cdn.andro4all.com/files/2021/10/Diseno-de-la-Xiaomi-Pad-5.jpg",
+				src: "https://chita.klumba.store/upload/iblock/81f/q5x16tdsysjywnpy2somu30w3atewyzp/IMG_6657.JPG",
 				id:"5"
 			},
 			{
-				title:"APPLE iPad mini",
-				desc:"Display Liquid Retina XDR4 12,9 Liquid Retina 11 display with technology ProMotion and True Tone",
+				title:"Монобукет #158",
+				desc:"Цветы в букете: тюльпан.Цвет букета: красный.",
 				promo: true,
-				src: "https://www.iphones.ru/wp-content/uploads/2021/10/ipad-mini-6-review-iphonesru-10.jpg",
+				src: "https://chita.klumba.store/upload/iblock/ac5/cpgcg5ufzfdm6yc82t6x34k58qsyrabg/10078534-34A0-43E8-B2AC-0FFDA3DE2F0A.jpeg",
 				id:"6"
 			}
         ]

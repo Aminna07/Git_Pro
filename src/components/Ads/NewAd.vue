@@ -4,14 +4,14 @@
             <v-flex xs12 sm6 offset-sm3>
                 <h1 class="text--secondary mb-3 mt-3">Create Ad</h1>
                 <v-form v-model="valid" ref="form" validation>
-                  <v-text-field color="#800080"
+                  <v-text-field color="#1A374D"
                      name="title" 
                      label="Ad Title" 
                      type="text" 
                      v-model="title"
                      :rules="[ v => !!v || 'Title is required']">
                  </v-text-field>
-                  <v-textarea color="#800080"  
+                  <v-textarea color="#1A374D"  
                      name="description" 
                      label="Ad Description" 
                      type="text" 
@@ -33,13 +33,13 @@
 
                 <v-layout  row> 
                  <v-flex xs12>
-                      <img src="https://wallpapershome.ru/images/pages/pic_h/23676.jpg" height="150" class="mt-3">
+                      <img src="https://chita.klumba.store/upload/iblock/3c4/mh0e3w01unyg7yfgj2liu6z4jrpty0yn.JPG" height="150" class="mt-3">
                  </v-flex>
                 </v-layout>
 
                 <v-layout  row> 
                   <v-flex xs12>
-                      <v-switch v-model="promo" color="#800080" label="Ad to Promo?"></v-switch>
+                      <v-switch v-model="promo" color="#1A374D" label="Ad to Promo?"></v-switch>
                     </v-flex>
                 </v-layout>
 
@@ -70,7 +70,7 @@ export default {
                 title: this.title,
                 desc: this.description,
                 promo: this.promo,
-                src: "https://wallpapershome.ru/images/pages/pic_h/23676.jpg"
+                src: "https://chita.klumba.store/upload/iblock/3c4/mh0e3w01unyg7yfgj2liu6z4jrpty0yn.JPG"
                 }
         this.$store.dispatch("createAd", ad)
     }
