@@ -2,15 +2,14 @@
 	<v-container>
 		<v-layout row> 
 			<v-flex xs12>
-				<h1>{{ id }}</h1>
 				<v-card class="mt-5">
 							<v-img 
-							height="400px"
+							height="300px"
 							:src="ad.src">
 							</v-img>
 							<v-card-text>
-								<h1 class="text--primary mb-3">{{ ad.title }}</h1>
-								<p>{{ad.desc}}</p>
+								<h1 class="text--primary mb-3"> {{ ad.title }} </h1>
+								<p> {{ ad.desc }} </p>
 							</v-card-text>
 							<v-card-actions>
 								<v-spacer></v-spacer>
@@ -25,12 +24,12 @@
 
 <script>
 export default {
-	props: ['id'],
-	computed: { 
-		ad() {
-			const id = this.id
-			return this.$store.getters.adById(id)
-		} 	
-	}
-}
+    props:['id'],
+    computed:{
+        ad(){
+            const id=this.id
+            return this.$store.getters.adById(id)
+        }
+    }
+} 
 </script>

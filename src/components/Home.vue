@@ -25,7 +25,7 @@
 				<v-card>
 					<v-img
 					:src="ad.src"
-					height="280px"
+					height="300px"
 					></v-img>
 					<v-card-title primary-title>
 					<div>
@@ -50,21 +50,16 @@
 
 <script>
 export default {
-	computed: {
-		promoAds() {
-			console.log ("Запрос с экрана")
-			return this.$store.getters.promoAds
-		},
-		ads() {
-			return this.$store.getters.ads
-		}
+  computed:  { 
+	promoAds() {
+		return this.$store.getters.promoAds
+	},
+	ads() {
+		return this.$store.getters.ads
 	}
-}
-
-	
-
+} 
+} 
 </script>
-
 <style scoped>
 	.ad-link {
 		position:absolute;
